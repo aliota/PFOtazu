@@ -22,7 +22,7 @@
                 <ul class="nav justify-content-evenly"> 
                     <li class="nav-item"><button type="button" class="btn btn-outline-primary p-1"><a class="nav-link" href="../index.html">Inicio</a></button></li>
                     <li class="nav-item"><button type="button" class="btn btn-outline-primary p-1"><a class="nav-link" href="./about.html">Nosotros</a></button></li>
-                    <li class="nav-item"><button type="button" id="nav__actual" class="btn btn-outline-primary p-1"><a class="nav-link" href="./services.html">Servicios</a></button></li>
+                    <li class="nav-item"><button type="button" id="nav__actual" class="btn btn-outline-primary p-1"><a class="nav-link" href="#" aria-current="true">Servicios</a></button></li>
                     <li class="nav-item"><button type="button" class="btn btn-outline-primary p-1"><a class="nav-link" href="./clients.html">Clientes</a></button></li>
                     <li class="nav-item"><button type="button" class="btn btn-outline-primary p-1"><a class="nav-link" href="./contact.html">Contacto</a></button></li>
                 </ul>               
@@ -43,7 +43,7 @@
                             <ul class="dropdown-menu">
                                 <li class="nav-item text-center"><a class="nav-link" href="../index.html">Inicio</a></li>
                                 <li class="nav-item text-center"><a  class="nav-link" href="./about.html">Nosotros</a></li>
-                                <li class="nav-item text-center"><a class="nav-link" href="./services.html">Servicios</a></li>
+                                <li class="nav-item text-center"><a class="nav-link" href="#" aria-current="true">Servicios</a></li>
                                 <li class="nav-item text-center"><a class="nav-link" href="./clients.html">Clientes</a></li>
                                 <li class="nav-item text-center"><a class="nav-link" href="./contact.html">Contacto</a></li>
                             </ul>
@@ -103,22 +103,31 @@
         </section>
                 
     </main>
-    <footer class="container-fluid">
-        <div class="row  align-items-center h-100">
-            <nav class="col-xl-2 col-6">
-                <ul class="nav flex-nowrap">
-                    <li class="nav-item h-100 d-inline-block"><a class="nav-link" href="../index.html"><img  src="../assets/logos/redes/wp.svg" class="img-fluid" alt="WhatsApp"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="../index.html"><img  src="../assets/logos/redes/fb.svg" class="img-fluid" alt="Facebook"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="../index.html"><img  src="../assets/logos/redes/li.svg" class="img-fluid" alt="LinkedIn"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="../index.html"><img  src="../assets/logos/redes/ig.svg" class="img-fluid" alt="Instagram"></a></li>
-                </ul>
-            </nav>
-            <div class="col-xl-10 col-6">
-                <p class="p-2 text-end ">Copyright©2024plus45.uy</p>
+    <footer class="container-fluid d-flex align-items-center justify-content-center">       
+        <div class="row align-items-center justify-content-center w-100 h-auto">                        
+            <div class="col-xl-4 col-6 align-self-center text-xl-end  text-center h-xl-75 h-25 d-inline-block">                
+                <a class=" px-xl-4 p-2 row align-content-center d-inline-block h-100 d-none d-xl-block" href="../sitemap.html" >Mapa del sitio</a>    
+                
             </div>
+            <div class="vr d-none d-xl-block"></div>    
+            <nav class="col-xl-2 col-8 d-inline-block h-auto">                   
+                <ul class="nav d-flex flex-row justify-content-evenly flex-nowrap">                    
+                    <li class="nav-item" ><a class="nav-link" href="#"><img  src="../assets/logos/redes/wp.svg" class="img-fluid" alt="WhatsApp"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img  src="../assets/logos/redes/fb.svg" class="img-fluid" alt="Facebook"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img  src="../assets/logos/redes/li.svg" class="img-fluid" alt="LinkedIn"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img  src="../assets/logos/redes/ig.svg" class="img-fluid" alt="Instagram"></a></li>                
+                </ul>       
+            </nav>
+            <div class="col-5 align-self-center text-xl-end text-center h-auto d-inline-block d-xl-none">                
+                <a class=" px-xl-4 p-2 row align-content-center d-inline-block h-100" href="../sitemap.html" >Mapa del sitio</a>    
+            </div>
+            <div class="vr"></div>
+            <div class="col-xl-4 col-5 d-inline-block  h-25 text-xl-start text-center">
+                <p class="px-xl-4 p-2">Copyright©2024plus45.uy</p>                
+            </div>                                  
         </div>
     </footer>    
     <script src="../scripts/bootstrap.bundle.min.js"></script>
 
 </body>
-</html>  
+</html>

@@ -28,12 +28,21 @@ h3 {
   background-color: #9cd2d3 !important;
 }
 
+.text-light {
+  color: #fdfdfd !important;
+}
+
 a {
   text-decoration: none;
 }
 
 /*SiteMap*/
 .body-sitemap {
+  height: 100vh;
+  background-color: #114c5f;
+}
+
+.body-error-page {
   height: 100vh;
   background-color: #114c5f;
 }
@@ -162,12 +171,41 @@ main {
   font-size: 0.8rem;
 }
 
+.main-sitemap__section {
+  background-image: linear-gradient(#047d96, #114c5f) !important;
+}
+.main-sitemap__section h1 {
+  padding-bottom: 10px !important;
+}
+.main-sitemap__section h2 {
+  color: #114c5f;
+  padding-top: 5px !important;
+}
+.main-sitemap__section h3 {
+  color: #047d96;
+}
+.main-sitemap__section ul p {
+  color: #047d96 !important;
+  padding: 5px !important;
+}
+
+.main-sitemap__fixed {
+  height: 90px;
+  background-color: #114c5f;
+}
+
 /* footer*/
 footer {
   height: 90px;
   font-size: 0.8rem;
   color: #fdfdfd;
   background-color: #114c5f;
+}
+footer a {
+  color: #fdfdfd;
+}
+footer a:over {
+  color: #fdfdfd;
 }
 
 /*# sourceMappingURL=style.css.map */

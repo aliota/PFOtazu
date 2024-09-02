@@ -4,36 +4,11 @@
 
 
 /*Encabezados*/
+@import "_encabezados";
 
-@mixin encabezado($family,$size)
-{
-    font-family: $family;
-    font-size: $size;
-}
-
-@for $i from 1 through 3 {  
-    $tamano: 1rem;  
-    @if $i == 1 {
-        $tamano: 1.7rem;  
-    } @else if $i == 2 {
-        $tamano: 1.3rem; 
-    } @else {
-        $tamano: 1.1rem; 
-    }
-    h#{$i}{
-        @include encabezado($fuentes,$tamano);
-        @if $i <3 {
-            color: $blanco;
-        } @else {
-            padding: 10px !important; 
-        }
-    }   
-}
 
 /*Cambio de Color Bootstrap*/
-.bg-warning-subtle{
-    background-color: $sinbad !important;
-}
+@import "_colores-bootstrap";
 
 a{
     text-decoration: none;
@@ -45,77 +20,13 @@ a{
     background-color: $eden;
 }
 
+.body-error-page{
+    height: 100vh;
+    background-color: $eden;
+}
 
 /*header*/
-
-header {
-    height: 90px;
-    background-color: $san-marino;   
-
-    .logo {
-        .logo__img{
-            transition: all 1s;
-        }
-        .logo__img:hover{
-            transform: scale(1.2,1.2) translate(5px,5px);
-        }
-    }
-
-    .logo-crea{
-        .logo-crea__img{
-            transition: all 1s;
-        }
-        .logo-crea__img:hover {
-            transform: scale(1.2,1.2) translate(-5px,5px) skewX(-10deg);
-        }
-    }
-      
-    .usuario{
-        .usuario__img{
-            transition: all 1s;
-        }
-        .usuario__img:hover {
-            transform: scale(1.4,1.4) translateY(5px);
-        }
-    } 
-      
-    #nav__actual{  
-        transform: scale(1.2,1.2);
-        background-color: #{$eden}6a !important;
-    }
-    #nav__actual:hover {
-        background-color: $bondi-blue !important;
-    }
-    .btn-outline-primary {
-        border-color: $blanco !important;       
-    }
-    .btn-outline-primary:hover{
-        background-color: $bondi-blue !important;
-    }
-    .btn-outline-primary:active{
-        background-color: $bondi-blue !important;
-    }
-    
-    .nav--principal{
-        .nav-item {        
-            .nav-link{
-                color: $blanco !important; 
-            }
-            .nav-link:hover{       
-                background-color: $bondi-blue !important; 
-            }     
-        }
-    }
-         
-    .dropdown-menu{
-        .nav-item{
-            background-color: $sinbad !important;
-            .nav-link {
-                color: $eden !important;     
-            }
-        }        
-    }
-}
+@import "_header";
 
 /*main*/
 
@@ -198,15 +109,33 @@ main {
     }    
 }
 
-/* footer*/
-
-footer{
-    height: 90px;
-    font-size: 0.8rem;
-    color: $blanco;
-    background-color: $eden; 
+.main-sitemap__section{
+    h1{
+        padding-bottom: 10px !important;
+    }
+    h2{
+        color: $eden;
+        padding-top: 5px !important;
+    }
+    h3{
+        color: $san-marino;
+    }
+    ul p{
+        color: $san-marino !important; 
+        padding: 5px !important;
+    }
+    
+    background-image:linear-gradient($san-marino,$eden) !important;    
+    
+    
 }
 
+.main-sitemap__fixed{
+    height: 90px;       
+    background-color: $eden;
+}
 
+/* footer*/
+@import "_footer";
 
 

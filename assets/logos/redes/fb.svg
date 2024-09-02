@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" width="14.3mm" height="13.2mm" viewBox="0 0 1430 1320" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xml:space="preserve">
+<svg version="1.2" width="10mm" height="10mm" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xml:space="preserve">
  <defs class="ClipPathGroup">
   <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
-   <rect x="0" y="0" width="1430" height="1320"/>
+   <rect x="0" y="0" width="1000" height="1000"/>
   </clipPath>
   <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
-   <rect x="1" y="1" width="1428" height="1318"/>
+   <rect x="1" y="1" width="998" height="998"/>
   </clipPath>
  </defs>
  <defs class="TextShapeIndex">
-  <g ooo:slide="id1" ooo:id-list="id3 id4"/>
+  <g ooo:slide="id1" ooo:id-list="id3"/>
  </defs>
  <defs class="EmbeddedBulletChars">
   <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
@@ -55,19 +55,12 @@
    <g id="container-id1">
     <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
      <g class="Page">
-      <g class="Group">
-       <g class="com.sun.star.drawing.ClosedBezierShape">
-        <g id="id3">
-         <rect class="BoundingBox" stroke="none" fill="none" x="164" y="113" width="1104" height="1095"/>
-         <path fill="rgb(17,76,95)" stroke="none" d="M 1249,660 C 1249,953 1010,1189 716,1189 L 716,1189 C 421,1189 182,953 182,660 L 182,660 C 182,370 421,131 716,131 L 716,131 C 1010,131 1249,370 1249,660 Z"/>
-         <path fill="none" stroke="rgb(253,253,253)" stroke-width="35" stroke-linejoin="miter" d="M 1249,660 C 1249,953 1010,1189 716,1189 L 716,1189 C 421,1189 182,953 182,660 L 182,660 C 182,370 421,131 716,131 L 716,131 C 1010,131 1249,370 1249,660 Z"/>
-        </g>
-       </g>
-       <g class="com.sun.star.drawing.ClosedBezierShape">
-        <g id="id4">
-         <rect class="BoundingBox" stroke="none" fill="none" x="493" y="331" width="405" height="686"/>
-         <path fill="rgb(255,255,255)" stroke="none" d="M 896,633 C 893,656 889,679 886,702 883,713 872,723 859,723 817,723 775,723 733,723 733,820 733,916 733,1013 720,1013 707,1015 694,1015 664,1015 635,1013 606,1009 606,913 606,818 606,723 574,723 542,723 510,723 502,723 494,716 494,709 494,680 494,651 494,621 494,615 502,607 510,607 542,607 574,607 606,607 606,564 606,521 606,477 606,398 678,332 766,332 803,332 840,332 877,332 886,332 893,338 893,346 893,375 893,404 893,433 893,440 886,447 877,447 851,447 824,447 798,447 763,447 733,473 733,506 733,540 733,574 733,607 780,607 826,607 872,607 889,605 899,619 896,633 Z"/>
-        </g>
+      <g class="Graphic">
+       <g id="id3">
+        <rect class="BoundingBox" stroke="none" fill="none" x="1" y="39" width="1001" height="924"/>
+        <path fill="rgb(17,76,95)" stroke="none" d="M 868,501 C 868,701 704,863 502,863 L 502,863 C 299,863 135,701 135,501 L 135,501 C 135,302 299,138 502,138 L 502,138 C 704,138 868,302 868,501 L 868,501 Z"/>
+        <path fill="none" stroke="rgb(253,253,253)" stroke-width="24" stroke-linejoin="miter" d="M 868,501 C 868,701 704,863 502,863 L 502,863 C 299,863 135,701 135,501 L 135,501 C 135,302 299,138 502,138 L 502,138 C 704,138 868,302 868,501 Z"/>
+        <path fill="rgb(255,255,255)" stroke="none" d="M 625,482 C 623,498 620,514 618,529 616,537 609,544 600,544 571,544 542,544 513,544 513,610 513,676 513,742 504,742 496,744 487,744 466,744 446,742 426,740 426,674 426,609 426,544 404,544 382,544 360,544 355,544 349,539 349,534 349,514 349,494 349,474 349,470 355,464 360,464 382,464 404,464 426,464 426,435 426,405 426,375 426,321 476,276 536,276 561,276 587,276 612,276 618,276 623,280 623,285 623,305 623,325 623,345 623,350 618,354 612,354 594,354 576,354 558,354 534,354 513,372 513,395 513,418 513,442 513,464 546,464 577,464 609,464 620,463 627,472 625,482 L 625,482 Z"/>
        </g>
       </g>
      </g>
