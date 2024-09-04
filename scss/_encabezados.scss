@@ -9,7 +9,7 @@
 @for $i from 1 through 3 {  
     $tamano: 1rem;  
     @if $i == 1 {
-        $tamano: 1.7rem;  
+        $tamano: 2rem;  
     } @else if $i == 2 {
         $tamano: 1.3rem; 
     } @else {

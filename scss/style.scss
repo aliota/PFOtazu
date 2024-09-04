@@ -20,11 +20,6 @@ a{
     background-color: $eden;
 }
 
-.body-error-page{
-    height: 100vh;
-    background-color: $eden;
-}
-
 /*header*/
 @import "_header";
 
@@ -32,6 +27,7 @@ a{
 
 main {     
     background-image:linear-gradient($san-marino,$eden);   
+    
 }
 
 .main-index {         
@@ -133,6 +129,27 @@ main {
 .main-sitemap__fixed{
     height: 90px;       
     background-color: $eden;
+}
+
+#error{
+    height: 100vh;
+    background-image:url('../assets/images/error.svg');
+    background-size: cover;
+    h1{
+        font-size: 10vw;
+        
+    }
+    h2{
+        font-size: 3vw;
+        
+    }
+    .logo{
+        height: 25vh;
+    }
+    .credit{
+        color: $eden;       
+    }
+    
 }
 
 /* footer*/
