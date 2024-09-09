@@ -18,7 +18,7 @@
     h#{$i}{
         @include encabezado($fuentes,$tamano);
         @if $i <3 {
-            color: $blanco;
+            color: $claro;
         } @else {
             padding: 10px !important; 
         }

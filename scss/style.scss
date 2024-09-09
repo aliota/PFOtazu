@@ -2,62 +2,135 @@
 @import "_colores";
 @import "_fuentes";
 
-
 /*Encabezados*/
 @import "_encabezados";
-
 
 /*Cambio de Color Bootstrap*/
 @import "_colores-bootstrap";
 
-a{
-    text-decoration: none;
-}
-
-/*SiteMap*/
-.body-sitemap{
-    height: 100vh;
+body{
     background-color: $eden;
+    font-size: 16px;
+    a{
+        text-decoration: none;
+    }
+
+    /*header*/
+    @import "_header";
+
+    /*main*/
+    main {     
+        background-image:linear-gradient($san-marino,$eden);        
+    }
+
+    /* footer*/
+    @import "_footer";
 }
 
-/*header*/
-@import "_header";
-
-/*main*/
-
-main {     
-    background-image:linear-gradient($san-marino,$eden);   
-    
-}
-
-.main-index {         
-    .main-index__free{        
-        color: $eden;
-        background-color: $sinbad;
-        .free__article{
-            height: 100%;            
+/*main Inicio*/
+.main-index {      
+         
+    color: $claro;         
+    h1{
+        height: 7vh;
+        font-size: 7.3vw; 
+        .con{
+            transform: scale(0.8,0.8) rotate(-20deg) translate(10px,-10px); 
+        }              
+    }       
+    h2{
+        font-size: 6vw;        
+    }
+    h3{
+        font-size: 5vw;
+    }
+    .main-index__servicios{
+        height: 40vh;
+        
+        button{
+            border: 2px solid $eden !important;
+            a{
+                color: $eden;            
+            }
         }
-        .free__image{
-            background-color: $blanco;
-            height: 100%;            
+                       
+    }
+    form {
+        color: $eden !important;
+        border: 2px solid $eden;
+        border-radius: 5px;  
+        .btn-primary {
+            border-color: $eden !important;   
+            background-color: $san-marino;                
+        }
+        .btn-primary:hover{
+            background-color: $bondi-blue !important;
+        }
+        .btn-primary:active{
+            background-color: $bondi-blue !important;
+        }     
+    }      
+}
+
+@media (min-width: 576px) {
+    .main-index{
+        h1{
+            height: 10vh;
+            font-size: 7vw;
+        }
+        h2{
+            font-size: 5vw;        
+        }
+        h3{
+            font-size: 4vw;        
         }
     }
-    .main-index__premium{      
-        color: $blanco; 
-        background-color: $san-marino;  
-        .premium__article{
-            height: 100%;           
-        }
-        .premium__image{
-            height: 100%;              
-        }
+}
+
+@media (min-width: 768px) {
+    .main-index{
+        h1{           
+            font-size: 7.5vw;
+        }               
     }
 }
 
+@media (min-width: 992px) {
+    .main-index{
+        h1{
+           
+            font-size: 7vw;
+        }
+        h2{
+            font-size: 4vw;        
+        }
+        h3{
+            font-size: 3vw;        
+        }        
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-index{
+        h1{
+            font-size: 5vw;
+        }
+        h2{
+            font-size: 2vw;        
+        }
+        h3{
+            font-size: 1.5vw;        
+        }        
+    }
+}
+
+
+/*main Nosotros*/
 .main-about{
-    color: $blanco;
+    color: $claro;
 }
 
+/*main Servicios*/
 .main-services {       
     .main-services__free{        
         color: $eden; 
@@ -66,13 +139,12 @@ main {
             height: 100%;            
         }
         .free__image{
-            background-color: $blanco;
+            background-color: $claro;
             height: 100%;            
         }
     }
     .main-services__premium{       
-        color: $blanco; 
-        
+        color: $claro;         
         .premium__article{
             height: 100%;           
         }
@@ -82,6 +154,7 @@ main {
     }
 }
 
+/*main Contacto*/
 .main-contacto {     
     form {
         color: $eden !important;
@@ -89,15 +162,14 @@ main {
         border-radius: 5px;  
         .btn-primary {
             border-color: $eden !important;   
-            background-color: $san-marino;
-                
+            background-color: $san-marino;                
         }
         .btn-primary:hover{
             background-color: $bondi-blue !important;
         }
         .btn-primary:active{
             background-color: $bondi-blue !important;
-        }     
+        }           
     }
     .info-contacto{
         color: $eden !important;
@@ -105,43 +177,84 @@ main {
     }    
 }
 
-.main-sitemap__section{
-    h1{
-        padding-bottom: 10px !important;
+/*main Gestión de Usuarios*/
+.main-user{
+    form {
+        color: $eden !important;
+        border: 2px solid $eden;
+        border-radius: 5px;  
+        .btn-primary {
+            border-color: $eden !important;   
+            background-color: $san-marino;                
+        }
+        .btn-primary:hover{
+            background-color: $bondi-blue !important;
+        }
+        .btn-primary:active{
+            background-color: $bondi-blue !important;
+        }
+        .btn-secondary {
+            color: #{$eden}aa;
+            border-color: #{$eden}aa !important;   
+            background-color: $sinbad;                
+        }
+        .btn-secondary:hover{
+            color: $claro;
+            background-color: $bondi-blue !important;
+        }
+        .btn-secondary:active{
+            color: $claro;
+            background-color: $bondi-blue !important;
+        }      
     }
-    h2{
-        color: $eden;
-        padding-top: 5px !important;
-    }
-    h3{
-        color: $san-marino;
-    }
-    ul p{
-        color: $san-marino !important; 
-        padding: 5px !important;
-    }
-    
-    background-image:linear-gradient($san-marino,$eden) !important;    
-    
-    
 }
 
-.main-sitemap__fixed{
-    height: 90px;       
-    background-color: $eden;
+/*SiteMap*/
+.body-sitemap{
+    height: 100vh; 
+    .main-sitemap__section{
+        h1{
+            padding-bottom: 10px !important;
+        }
+        h2{
+            color: $eden;
+            padding-top: 5px !important;
+        }
+        h3{
+            color: $san-marino;
+        }
+        ul p{
+            color: $san-marino !important; 
+            padding: 5px !important;
+        }        
+        background-image:linear-gradient($san-marino,$eden) !important;        
+    }    
+    .main-sitemap__fixed{
+        height: 90px;       
+        background-color: $eden;
+    }  
 }
 
-#error{
-    height: 100vh;
+/*Error 404*/
+.body-error-404{
     background-image:url('../assets/images/error.svg');
-    background-size: cover;
+    background-size: cover;   
+}
+
+#main-error-404{
+    height: 100vh;
+    background-image:none; 
+    color: $sinbad !important;     
     h1{
-        font-size: 10vw;
-        
+        .h1__error{
+            font-size: 1.5vw;                 
+        }
+        .h1__404{
+            font-size: 10vw;
+        }
     }
     h2{
-        font-size: 3vw;
-        
+        font-size: 3vw;        
     }
     .logo{
         height: 25vh;
@@ -149,10 +262,14 @@ main {
     .credit{
         color: $eden;       
     }
-    
+    p {
+        font-size: 2vw;  
+        a{
+            color:$claro;
+        }
+    };
 }
 
-/* footer*/
-@import "_footer";
+
 
 

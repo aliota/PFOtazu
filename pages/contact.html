@@ -30,7 +30,7 @@
                 <nav class="row"> 
                     <ul class=" nav flex-nowrap p-xl-3 p-2 nav justify-content-end">
                         <li class="p-1 nav-item logo-crea"> <a class="nav-link" href="./services.html"><img src="../assets/logos/crea/crea.svg" class="img-fluid logo-crea__img"  alt="crea tu web"></a></li>
-                        <li class="p-1 nav-item usuario"> <a class="nav-link" href="../index.html"><img src="../assets/logos/usuario/usuario.svg" class="img-fluid usuario__img" alt="usuario"></a></li>     
+                        <li class="p-1 nav-item usuario"> <a class="nav-link" href="./user.html"><img src="../assets/logos/usuario/usuario.svg" class="img-fluid usuario__img" alt="usuario"></a></li>     
                     </ul>
                 </nav>
                 <div class="row" >
@@ -53,7 +53,7 @@
             
         </div>
     </header>
-    <main class="px-5 py-4 container-fluid main-contacto">
+    <main class="px-sm-4 py-3 px-2 container-fluid main-contacto">
         
         <div class="row">
             <h1 class="col-12 text-center">Contáctanos</h1>            
@@ -62,43 +62,48 @@
             <h2 class="py-3 text-center">Despeja tus dudas y comienza hoy mismo a crear tu web</h2>
         </div> 
        
-        <section class="row justify-content-center align-items-center bg-warning-subtle">            
-            <div class="p-4 col-xl-6 col-12 ">                
-                <form action="" method="post" class="form p-5">
+        <section class="row justify-content-center align-items-center bg-warning-subtle rounded">            
+            <div class="p-xl-2 p-1 col-xl-6 col-12 ">                
+                <form action="" method="post" class="form p-2  p-xl-3">
                     <div class="mb-3">
                         <img src="../assets/logos/contacto/nombre.svg" alt="nombre">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre">
+                        <label for="nombre" class="form-label m-2"><strong>Nombre</strong></label>
+                        <input type="text" class="form-control p-2" id="nombre" placeholder="Ingresa nombre" aria-label="Nombre">
                     </div>
                     
                     <div class="mb-3">    
                         <img src="../assets/logos/contacto/mail.svg" alt="mail">
-                        <label for="mail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
+                        <label for="email" class="form-label m-2"><strong>Email</strong></label>
+                        <input type="email" class="form-control p-2" id="email" placeholder="ej. nombre@email.com" aria-label="email">
                     </div>   
                     
                     <div class="mb-3">    
                         <img src="../assets/logos/contacto/tel.svg" alt="tel">
-                        <label for="tel" class="form-label">Teléfono</label>
-                        <input type="text" class="form-control" id="tel">
+                        <label for="tel" class="form-label m-2"><strong>Teléfono</strong></label>
+                        <input type="text" class="form-control p-2" id="tel" placeholder="Ingresa teléfono de contacto" aria-label="Teléfono">
                     </div> 
 
                     <div class="mb-3">    
-                        <label for="consulta" class="form-label">Consulta</label>
-                        <textarea name="" class="form-control" id="consulta"></textarea>
+                        <label for="consulta" class="form-label m-2"><strong>Consulta</strong></label>
+                        <textarea name="" class="form-control p-2" id="consulta" rows="4" placeholder="Ingresa tu consulta aquí" aria-label="Consulta"></textarea>
                     </div>          
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                    <button type="reset" class="btn btn-primary">Cancelar</button>                                       
+                    <button type="submit" class="btn btn-primary p-1 my-1">Enviar</button>
+                    <button type="reset" class="btn btn-primary p-1 my-1 mx-3">Cancelar</button>                                       
                 </form>
             </div>   
             
-            <div class="p-4 col-xl-6 col-12">
+            <div class="pe-xl-3 p-1 col-xl-6 col-12">
+                <div>
+                    <p class="text-center text-primary pb-xl-3 py-4">
+                        <strong>Bulevar España esq. Juan Paullier</strong>
+                    </p>
+                </div>
                 <div class="row">
                     <img src="../assets/images/mapa_922x540.webp" class="col-12 img-fluid rounded" alt="ubicación">
                 </div>
                 <div class="row justify-content-around info-contacto">
-                    <p class="p-1 col-xl-10 col-6 "><img src="../assets/logos/contacto/tel.svg" alt="tel">099 99 99 99</p>
-                    <p class="p-1 col-xl-10 col-6 "><img src="../assets/logos/contacto/mail.svg" alt="mail"> info@plus45.uy</p>
+                    <p class="pb-xl-0 py-4 col-xl-10 col-6 "><img src="../assets/logos/contacto/tel.svg" alt="tel">099 99 99 99</p>
+                    <p class="pt-xl-2 py-4 col-xl-10 col-6 "><img src="../assets/logos/contacto/mail.svg" alt="mail"> info@plus45.uy</p>
                 </div>                
             </div>   
         </section>        
@@ -106,11 +111,11 @@
     <footer class="container-fluid d-flex align-items-center justify-content-center">       
         <div class="row align-items-center justify-content-center w-100 h-auto">                        
             <div class="col-xl-4 col-6 align-self-center text-xl-end  text-center h-xl-75 h-25 d-inline-block">                
-                <a class=" px-xl-4 p-2 row align-content-center d-inline-block h-100 d-none d-xl-block" href="../sitemap.html" >Mapa del sitio</a>    
+                <a class=" px-xl-4 py-2 row align-content-center d-inline-block d-none d-xl-block" href="../sitemap.html" >Mapa del sitio</a>    
                 
             </div>
             <div class="vr d-none d-xl-block"></div>    
-            <nav class="col-xl-2 col-8 d-inline-block h-auto">                   
+            <nav class="col-xl-2 col-8 d-inline-block h-auto mt-5 mt-xl-0">                   
                 <ul class="nav d-flex flex-row justify-content-evenly flex-nowrap">                    
                     <li class="nav-item" ><a class="nav-link" href="#"><img  src="../assets/logos/redes/wp.svg" class="img-fluid" alt="WhatsApp"></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><img  src="../assets/logos/redes/fb.svg" class="img-fluid" alt="Facebook"></a></li>
@@ -118,13 +123,13 @@
                     <li class="nav-item"><a class="nav-link" href="#"><img  src="../assets/logos/redes/ig.svg" class="img-fluid" alt="Instagram"></a></li>                
                 </ul>       
             </nav>
-            <div class="col-5 align-self-center text-xl-end text-center h-auto d-inline-block d-xl-none">                
-                <a class=" px-xl-4 p-2 row align-content-center d-inline-block h-100" href="../sitemap.html" >Mapa del sitio</a>    
+            <div class="col-12 align-self-center text-end h-auto d-inline-block d-xl-none">                
+                <a class="px-4 pt-4 row d-inline-block h-100" href="./sitemap.html" >Mapa del sitio</a>    
             </div>
-            <div class="vr"></div>
-            <div class="col-xl-4 col-5 d-inline-block  h-25 text-xl-start text-center">
-                <p class="px-xl-4 p-2">Copyright©2024plus45.uy</p>                
-            </div>                                  
+            <div class="vr d-none d-xl-block"></div>
+            <div class="col-xl-4 col-12 d-inline-block  text-xl-start text-end align-self-center">
+                <p class="px-xl-4 px-4 py-2 align-self-center">Copyright©2024plus45.uy</p>                
+            </div>                                   
         </div>
     </footer>
     <script src="../scripts/bootstrap.bundle.min.js"></script>

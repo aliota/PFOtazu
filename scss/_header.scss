@@ -39,7 +39,7 @@ header {
         background-color: $bondi-blue !important;
     }
     .btn-outline-primary {
-        border-color: $blanco !important;       
+        border-color: $claro !important;       
     }
     .btn-outline-primary:hover{
         background-color: $bondi-blue !important;
@@ -51,7 +51,7 @@ header {
     .nav--principal{
         .nav-item {        
             .nav-link{
-                color: $blanco !important; 
+                color: $claro !important; 
             }
             .nav-link:hover{       
                 background-color: $bondi-blue !important; 
@@ -67,4 +67,12 @@ header {
             }
         }        
     }
+}
+
+#header-index{
+    background-color: $san-marino;       
+}
+
+#header-error-404{
+    background-color: #{$san-marino}00;       
 }
