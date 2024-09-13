@@ -60,15 +60,15 @@
         <div class="row">
             <h2 class="py-3 text-center">Conoce a nuestros clientes</h2>
         </div>        
-        <section class="row py-xl-2 py-0">
-            <a href="#" class="col-xl-4 col-12 text-center py-xl-0 py-2"><img src="../assets/images/cliente1.webp" class="rounded img-fluid" alt="cliente_1"></a>                        
-            <a href="#" class="col-xl-4 col-12 text-center py-xl-0 py-2"><img src="../assets/images/cliente2.webp" class="rounded img-fluid" alt="cliente_2"></a>                        
-            <a href="#" class="col-xl-4 col-12 text-center py-xl-0 py-2"><img src="../assets/images/cliente3.webp" class="rounded img-fluid" alt="cliente_3"></a>                                    
+        <section class="row py-xl-2 py-0">            
+            <div class="col-xl-4 col-12 text-center py-xl-0 py-2" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Horizontes Lejanos" data-bs-content="Agencia de Viajes" data-bs-custom-class="clients-popover"><img src="../assets/images/cliente1.webp" class="rounded img-fluid" alt="agencias de viajes"></div>                        
+            <div class="col-xl-4 col-12 text-center py-xl-0 py-2" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="EcoInnovación" data-bs-content="Ingeniería Ambiental" data-bs-custom-class="clients-popover"><img src="../assets/images/cliente2.webp" class="rounded img-fluid" alt="Ingeniería Ambiental"></div>                        
+            <div class="col-xl-4 col-12 text-center py-xl-0 py-2" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Great Place" data-bs-content="Academia de Inglés" data-bs-custom-class="clients-popover"><img src="../assets/images/cliente3.webp" class="rounded img-fluid" alt="Academia de Inglés"></div>                       
         </section>
         <section class="row py-xl-2 py-0">
-            <a href="#" class="col-xl-4 col-12 text-center py-xl-0 py-2"><img src="../assets/images/cliente4.webp" class="rounded img-fluid" alt="cliente_4"></a>                        
-            <a href="#" class="col-xl-4 col-12 text-center py-xl-0 py-2"><img src="../assets/images/cliente5.webp" class="rounded img-fluid" alt="cliente_5"></a>                        
-            <a href="#" class="col-xl-4 col-12 text-center py-xl-0 py-2"><img src="../assets/images/cliente6.webp" class="rounded img-fluid" alt="cliente_6"></a>                                    
+            <div class="col-xl-4 col-12 text-center py-xl-0 py-2" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="DKL&Co" data-bs-content="Estudio Jurídico" data-bs-custom-class="clients-popover"><img src="../assets/images/cliente4.webp" class="rounded img-fluid" alt="Estudio Jurídico"></div>                        
+            <div class="col-xl-4 col-12 text-center py-xl-0 py-2" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Sazón" data-bs-content="Restaurante y Bar" data-bs-custom-class="clients-popover"><img src="../assets/images/cliente5.webp" class="rounded img-fluid" alt="Restaurante"></div>                        
+            <div class="col-xl-4 col-12 text-center py-xl-0 py-2" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Colabora" data-bs-content="Oficinas de Cowork" data-bs-custom-class="clients-popover"><img src="../assets/images/cliente6.webp" class="rounded img-fluid" alt="Cowork"></div>                       
         </section>
         
              
@@ -98,6 +98,10 @@
         </div>
     </footer>
     <script src="../scripts/bootstrap.bundle.min.js"></script>
-
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+             
+    </script>
 </body>
 </html> 

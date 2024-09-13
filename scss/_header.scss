@@ -63,15 +63,17 @@ header {
         .nav-item{
             background-color: $sinbad !important;
             .nav-link {
-                color: $eden !important;     
+                color: $eden !important; 
+                padding: 10px 0px 10px 0px !important;    
+            }
+            .nav-link:hover {
+                background-color: $claro !important;     
             }
         }        
     }
 }
 
-#header-index{
-    background-color: $san-marino;       
-}
+
 
 #header-error-404{
     background-color: #{$san-marino}00;       
