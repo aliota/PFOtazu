@@ -202,7 +202,6 @@ body footer a:over {
 
 /*main Inicio*/
 .main-index {
-  height: 60vh;
   color: #fdfdfd;
 }
 .main-index h1 {
@@ -211,7 +210,7 @@ body footer a:over {
 }
 .main-index h1 .con {
   color: #9cd2d3;
-  transform: scale(0.9, 0.9) rotate(-20deg) translate(10px, -10px);
+  transform: scale(0.95, 0.95) rotate(-20deg) translate(1px, -1px);
 }
 .main-index h1 .con:hover {
   animation-name: girando;
@@ -221,13 +220,13 @@ body footer a:over {
   animation-delay: 0s;
 }
 .main-index h2 {
-  font-size: 6vw;
+  font-size: 7vw;
 }
 .main-index h3 {
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 .main-index .main-index__section-1 {
-  height: 250px;
+  height: 300px;
 }
 .main-index .main-index__section-1 .section-1__servicios button {
   border: 2px solid #114c5f !important;
@@ -265,18 +264,15 @@ body footer a:over {
     font-size: 4vw;
   }
   .main-index .main-index__section-1 {
-    height: 300px;
+    height: 350px;
   }
 }
 @media (min-width: 576px) {
-  .main-index {
-    height: 80vh;
-  }
   .main-index h1 {
     font-size: 7vw;
   }
   .main-index h2 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   .main-index h3 {
     font-size: 4vw;
@@ -287,15 +283,15 @@ body footer a:over {
 }
 @media (min-width: 768px) {
   .main-index h1 {
-    font-size: 7.2vw;
+    font-size: 6.7vw;
+  }
+  .main-index h2 {
+    font-size: 5vw;
   }
 }
 @media (min-width: 992px) {
-  .main-index {
-    height: 75vh;
-  }
   .main-index h1 {
-    font-size: 7vw;
+    font-size: 6vw;
   }
   .main-index h2 {
     font-size: 4vw;
@@ -305,14 +301,11 @@ body footer a:over {
   }
 }
 @media (min-width: 1200px) {
-  .main-index {
-    height: 75vh;
-  }
   .main-index h1 {
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
   .main-index h2 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .main-index h3 {
     font-size: 1.5vw;

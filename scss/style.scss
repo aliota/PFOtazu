@@ -51,15 +51,14 @@ body{
 }
 
 /*main Inicio*/
-.main-index {  
-    height: 60vh;         
+.main-index {       
     color: $claro;         
     h1{
         height: 7vh;
         font-size: 7.1vw; 
         .con{
            color: $sinbad; 
-           transform: scale(0.9,0.9) rotate(-20deg) translate(10px,-10px);            
+           transform: scale(0.95,0.95) rotate(-20deg) translate(1px,-1px);            
         } 
         .con:hover{
            animation-name: girando;
@@ -70,13 +69,13 @@ body{
         }             
     }       
     h2{
-        font-size: 6vw;        
+        font-size: 7vw;        
     }
     h3{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .main-index__section-1{
-        height: 250px;
+        height: 300px;
         .section-1__servicios{            
             button{
                 border: 2px solid $eden !important;
@@ -122,19 +121,19 @@ body{
             font-size: 4vw;        
         }
         .main-index__section-1{
-            height: 300px;
+            height: 350px;
         }       
     }
 }
 
 @media (min-width: 576px) {
     .main-index{
-        height: 80vh;  
+       
         h1{           
             font-size: 7vw;
         }
         h2{
-            font-size: 5vw;        
+            font-size: 6vw;        
         }
         h3{
             font-size: 4vw;        
@@ -148,16 +147,18 @@ body{
 @media (min-width: 768px) {
     .main-index{        
         h1{           
-            font-size: 7.2vw;
-        }               
+            font-size: 6.7vw;
+        }    
+        h2{
+            font-size: 5vw;        
+        }           
     }
 }
 
 @media (min-width: 992px) {
-    .main-index{      
-        height: 75vh;   
+    .main-index{               
         h1{           
-            font-size: 7vw;
+            font-size: 6vw;
         }
         h2{
             font-size: 4vw;        
@@ -169,13 +170,12 @@ body{
 }
 
 @media (min-width: 1200px) {
-    .main-index{
-        height: 75vh; 
+    .main-index{       
         h1{
-            font-size: 5vw;
+            font-size: 4.5vw;
         }
         h2{
-            font-size: 2vw;        
+            font-size: 3vw;        
         }
         h3{
             font-size: 1.5vw;        
